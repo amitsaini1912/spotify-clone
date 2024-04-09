@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@300;400;500;600;700&family=Signika+Negative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="header">
+                <div class="home">
+                    <i class="fa-solid fa-house"></i>Home
+                </div>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>Search
+                </div>
+            </div>
+            <div class="library">
+                <div class="library_header">
+                    <div class="your_library">
+                        <img src="./assets/library_icon.png" alt="library Icon">
+                        Your Library
+                    </div>
+                    <div class="library_icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="library_cards">
+                    <div class="library_card_1">
+                     <h4>Create your first playlist</h4>
+                     <p>It's easy, we'll help you</p>
+                     <button>Create Playlist</button>
+                    </div>
+
+                    <div class="library_card_2">
+                        <h4>Let's find some podcasts to follow</h4>
+                        <p>We'll keep you updated on new episodes</p>
+                        <button>Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky_nav">
+                <div class="arrows">
+                    <button style="height: 2rem; width: 1rem;background-color: #0000008A; color: #fff;">
+                        <i class="fa-solid fa-chevron-left" style="position: relative; right: .3rem;"></i>
+                    </button>
+                    <button style="height: 2rem; width: 1rem;background-color: #0000008A; color: #fff;">
+                        <i class="fa-solid fa-chevron-right" style="position: relative; right: .3rem;"></i>
+                    </button>
+                </div>
+                <div class="signup_details">
+                    <button>Explore Primium</button>
+                    <button style="height: 2rem; background-color: #0000008A; color: #fff;">
+                        <i class="fa-regular fa-circle-down"></i>
+                        Install App
+                    </button>
+                    <button style="height: 2rem; width: 1rem; background-color: #0000008A; color: #fff;">
+                        <i class="fa-solid fa-bell" style="position: relative; right: .4rem;"></i>
+                    </button>
+                    <button style="height: 2rem; width: 1rem;background-color: #0000008A; color: #fff;">
+                        <i class="fa-regular fa-user" style="position: relative; right: .4rem;"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="content">
+
+                <!-- 1st Playlist Container -->
+
+                <div class="palylist_container"> 
+
+                    <div class="recent_player_header">
+                        <h3 style="font-size: x-large; font-weight: bold;">Recent Played</h3>
+                        <p style="opacity: 0.5; font-size: large; font-weight: bold;">See More</p>
+                    </div>
+                
+                    <div class="recent_played">
+
+                        <div class="music_card">
+                            <img src="./assets/card1img.jpeg" alt="img">
+                            <h3>Sidhu Moose W...</h3>
+                            <a href="#">Sidhu, Ammy Virk...</a>
+                            <a href="#">Gurnaam Bhuller, A...</a>
+                        </div>
+
+                        <div class="music_card">
+                            <img src="./assets/card3img.jpeg" alt="img">
+                            <h3>Badshah...</h3>
+                            <a href="#">Badshah, Abhi...</a>
+                            <a href="#">Jerry, B...</a>
+                        </div>
+
+                        <div class="music_card">
+                            <img src="./assets/card2img.jpeg" alt="img">
+                            <h3>Masoom Sharma...</h3>
+                            <a href="#">Vinod, Masoom...</a>
+                            <a href="#">Bhuller, KD...</a>
+                        </div>
+
+                    </div>    
+
+                </div> 
+
+                 <!-- 2nd Playlist Container -->
+              
+                <div class="palylist_container"> 
+
+                    <div class="recent_player_header">
+                        <h3 style="font-size: x-large; font-weight: bold;">Based on your recent listening</h3>
+                        <p style="opacity: 0.5; font-size: large; font-weight: bold;">See More</p>
+                    </div>
+                
+                    <div class="recent_played">
+
+                        <div class="music_card">
+                            <img src="./assets/card4img.jpeg" alt="img">
+                            <h3>Top Panjabi...</h3>
+                            <a href="#">Sidhu, Ammy Virk...</a>
+                            <a href="#">Gurnaam Bhuller, A...</a>
+                        </div>
+
+                        <div class="music_card">
+                            <img src="./assets/card5img.jpeg" alt="img">
+                            <h3>Top Hindi Song...</h3>
+                            <a href="#">Neha Kakkar...</a>
+                            <a href="#">Tony, A...</a>
+                        </div>
+
+                        <div class="music_card">
+                            <img src="./assets/card3img.jpeg" alt="img">
+                            <h3>Top 2023 Hits...</h3>
+                            <a href="#">Sidhu, Ammy Virk...</a>
+                            <a href="#">Gurnaam Bhuller, A...</a>
+                        </div>
+                    
+                    </div>
+
+                </div>
+
+                <!-- 3rd Playlist container -->
+
+                <div class="palylist_container"> 
+
+                    <div class="recent_player_header">
+                        <h3 style="font-size: x-large; font-weight: bold;">New Released</h3>
+                        <p style="opacity: 0.5; font-size: large; font-weight: bold;">See More</p>
+                    </div>
+                
+                    <div class="recent_played">
+
+                        <div class="music_card">
+                            <img src="./assets/card6img.jpeg" alt="img">
+                            <h3>Sidhu Moose W...</h3>
+                            <a href="#">Sidhu, Ammy Virk...</a>
+                            <a href="#">Gurnaam Bhuller, A...</a>
+                        </div>
+
+                        <div class="music_card">
+                            <img src="./assets/card1img.jpeg" alt="img">
+                            <h3>Amit Saini</h3>
+                            <a href="#">Amit, Amit Saini...</a>
+                            <a href="#">Renuka Panwar, A...</a>
+                        </div>
+
+                        <div class="music_card">
+                            <img src="./assets/card2img.jpeg" alt="img">
+                            <h3>Manisha Saini...</h3>
+                            <a href="#">Manisha, Vinod...</a>
+                            <a href="#">Vikram, A...</a>
+                        </div>
+                    
+                    </div>    
+
+                </div>
+               
+                <!-- space between playlists And Footer -->
+
+                <br>
+                <br>
+                <br>
+
+                <div class="footer_head">
+
+                    <div class="imp_links">
+
+                        <div class="about">
+                            <h3>Company</h3>
+                            <a href="#">About</a>
+                            <a href="#">Jobs</a>
+                            <a href="#">For the Record</a>
+                        </div> 
+
+                        <div class="communities">
+                            <h3>Communities</h3>
+                            <a href="#">For Artists</a>
+                            <a href="#">Developers</a>
+                            <a href="#">Advertising</a>
+                            <a href="#">Investors</a>
+                            <a href="#">Vendors</a>
+                        </div>
+
+                        <div class="useful_links">
+                            <h3>Useful links</h3>
+                            <a href="#">Support</a>
+                            <a href="#">Free Mobile App</a>
+                        </div>
+
+                    </div>
+
+                    <div class="social_media_links">
+
+                        <button style="height: 2rem; width: 1rem; background-color: #0000008A; color: #fff;">
+                            <i class="fa-regular fa-user" style="position: relative; right: .4rem;"></i>
+                        </button>
+
+                        <button style="height: 2rem; width: 1rem; background-color: #0000008A; color: #fff;">
+                            <i class="fa-regular fa-user" style="position: relative; right: .4rem;"></i>
+                        </button> 
+
+                        <button style="height: 2rem; width: 1rem; background-color: #0000008A; color: #fff;">
+                            <i class="fa-regular fa-user" style="position: relative; right: .4rem;"></i>
+                        </button> 
+
+                    </div>
+
+
+                </div>
+
+                <hr>
+
+                <div class="footer_foot">
+                    <div class="foot_links">
+                        <a href="#">Legal</a>
+                        <a href="#">Privacy Center</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Cookies</a>
+                        <a href="#">About Ads</a>
+                        <a href="#">Accessibility</a>
+                    </div>
+                    
+                    <div class="foot_copyright">
+                        <p style="font-size: large; font-weight: bold;">© 2023 Spotify AB</p>
+                    </div>
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                        
+                </div>
+            </div>  
+        </div> 
+        
+
+        <div class="music-player">
+
+            <div class="music_details" style="width: 330px;">
+                <div class="music_poster">
+                    <img src="./homework_assets/album_picture.jpeg" alt="picture">
+                </div>
+                <div class="music_info">
+                    <a href="#" style="text-decoration: none; color: #fff;">Ik Tera</a>
+                    <a href="#" style="text-decoration: none; color: #fff; font-size: xx-small; font-weight: 400;">Maninder Buttar</a>
+                </div>
+                <div class="like_icon">
+                    <img src="./homework_assets/album_icon1.png" alt="like_img" style="height: 24px; width: 24px; padding-left: 2rem;">
+                </div>
+            </div>
+
+            <div class="music_playground">
+                 <div class="control_btn">
+                    <img src="./assets/player_icon1.png" alt="img" style="opacity: 0.5; position: relative; top: 10px;">
+                    <img src="./assets/player_icon2.png" alt="img"style="opacity: 0.5; position: relative; top: 10px;">
+                    <img src="./assets/player_icon3.png" alt="img" style="height: 2rem; width: 2rem; position: relative; top: 15px;">
+                    <img src="./assets/player_icon4.png" alt="img" style="opacity: 0.5; position: relative; top: 10px;">
+                    <img src="./assets/player_icon5.png" alt="img" style="opacity: 0.5; position: relative; top: 10px;">
+                </div>
+                <div class="control_range">
+                01:07<input type="range" min="00:00" max="03:48" style="width: 400px;">03:48
+                </div>
+            </div>
+
+            <div class="music_controls">
+                 <img src="./homework_assets/controld_icon2.png" alt="img" style="height: 2rem; width: 2rem;">
+                 <img src="./homework_assets/controls_icon1.png" alt="img" style="height: 2rem; width: 2rem;">
+                 <img src="./homework_assets/controls_icon3.png" alt="img" style="height: 1.5rem; width: 1.5rem;">
+                 <img src="./homework_assets/controls_icon4.png" alt="img" style="height: 1.4rem; width: 1/4rem;">
+                 <img src="./homework_assets/controls_icon5.png" alt="img"style="height: 2rem; width: 2rem;">
+                 <input type="range" min="0" max="10">
+            </div>
+
+        </div>
+
+    </div> 
+</body>
+</html>
